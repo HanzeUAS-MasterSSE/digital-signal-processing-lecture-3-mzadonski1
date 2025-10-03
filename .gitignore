@@ -1,21 +1,29 @@
 # ignore venv
+.venv/
 venv/
-# ignore any pycache
+
+# ignore pycache
 __pycache__/
 *.pyc
-# ignore any .vscode settings
+
+# jupyter checkpointid
+.ipynb_checkpoints/
+
+# ignore .vscode ja .idea
 .vscode/
-# ignore any .idea settings
 .idea/
-# ignore any .pytest_cache
+
+# pytest ja mypy cache
 .pytest_cache/
-# ignore any .mypy_cache
 .mypy_cache/
-# ignore any .DS_Store files (macOS)
+
+# macOS stuff
 .DS_Store
+
+# keskkonna failid
 .env
-# ignore any .coverage files
 .coverage
 
-# ignore any mp3 files
+# ignore mp3 ja wav helifailid
 *.mp3
+*.wav
